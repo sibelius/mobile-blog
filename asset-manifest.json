@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.js": "/mobile-blog/static/js/main.62198cb0.chunk.js",
+    "main.js.map": "/mobile-blog/static/js/main.62198cb0.chunk.js.map",
+    "runtime-main.js": "/mobile-blog/static/js/runtime-main.a1092863.js",
+    "runtime-main.js.map": "/mobile-blog/static/js/runtime-main.a1092863.js.map",
+    "static/js/2.2c2a7873.chunk.js": "/mobile-blog/static/js/2.2c2a7873.chunk.js",
+    "static/js/2.2c2a7873.chunk.js.map": "/mobile-blog/static/js/2.2c2a7873.chunk.js.map",
+    "index.html": "/mobile-blog/index.html",
+    "precache-manifest.cbaffba317cb7c20aacf4cf1fbca29fe.js": "/mobile-blog/precache-manifest.cbaffba317cb7c20aacf4cf1fbca29fe.js",
+    "service-worker.js": "/mobile-blog/service-worker.js",
+    "static/js/2.2c2a7873.chunk.js.LICENSE.txt": "/mobile-blog/static/js/2.2c2a7873.chunk.js.LICENSE.txt",
+    "static/media/nomad-3x.png": "/mobile-blog/static/media/nomad-3x.1a9c4a14.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a1092863.js",
+    "static/js/2.2c2a7873.chunk.js",
+    "static/js/main.62198cb0.chunk.js"
+  ]
+}
