@@ -7,7 +7,11 @@ import { space } from 'styled-system';
 
 const Wrapper = styled.div`
   background-color: #F1F2F6;
-`
+`;
+
+const ImgText = styled.div`
+  position: relative;
+`;
 
 const Img = styled.img`
   display: block;
@@ -41,12 +45,36 @@ const Footer = styled(Flex)`
     padding-left: 20px;
     padding-right: 20px;
   }
+`;
+
+const Name = styled.span`
+  position: absolute;
+  top: 280px;
+  left: 50px;
+  color: white;
+  font-size: 20px;
+`;
+
+const Description = styled.span`
+  position: absolute;
+  top: 320px;
+  left: 50px;
+  color: white;
+  font-size: 48px;
+  font-weight: bold;
+  width: 4em;
 `
 
 const App = () => {
   return (
     <Wrapper>
-      <Img src={background} />
+      <ImgText>
+        <Img src={background} />
+        <Name>Sibelius Seraphini</Name>
+        <Description>
+          THE DARK SIDE OF THE DIGITAL NOMAD
+        </Description>
+      </ImgText>
       <Footer>
         <Text>Close</Text>
         <Flex>
